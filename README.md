@@ -10,7 +10,7 @@ Help businesses improve marketing strategies.
 Increase sales and customer satisfaction. 
 
 🛠️ Technologies Used
-Python
+Pythonm
 Pandas
 NumPy
 Matplotlib
