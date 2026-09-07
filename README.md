@@ -2,14 +2,13 @@
 🛍️ Customer Segmentation using K-Means Clustering
 📌 Project Overview
 Customer Segmentation using K-Means Clustering is a Machine Learning project that groups customers into meaningful segments based on their characteristics and purchasing behavior.
-The project helps businesses understand different types of customers and improve their marketing strategies, sales, and customer satisfaction. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
-🎯 Objectives
+The project helps businesses understand different types of customers and improve their marketing strategies, sales, and customer satisfaction. 
+ Objectives
 Group customers based on similar characteristics.
 Identify different types of customers.
 Help businesses improve marketing strategies.
-Increase sales and customer satisfaction. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+Increase sales and customer satisfaction. 
+
 🛠️ Technologies Used
 Python
 Pandas
@@ -19,8 +18,8 @@ Seaborn
 Scikit-learn
 Google Colab
 CSV / Excel dataset
-These technologies are specified in the project synopsis. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+These technologies are specified in the project synopsis. 
+
 📊 Dataset
 The dataset contains customer information such as:
 Feature
@@ -37,8 +36,7 @@ Spending_Score
 Spending score from 1–100
 Purchase_Frequency
 Number of purchases
-�
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+
 🔄 Project Workflow
 Customer Dataset
        ↓
@@ -61,8 +59,8 @@ Cluster Assignment
 Visualization
        ↓
 Cluster Analysis
-The project architecture follows data collection, preprocessing, feature selection, clustering, visualization, and analysis. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+The project architecture follows data collection, preprocessing, feature selection, clustering, visualization, and analysis. 
+
 🧹 Data Preprocessing
 The following steps are performed:
 Load the customer CSV dataset
@@ -70,35 +68,32 @@ Check missing values.
 Remove duplicate records.
 Encode categorical data when required.
 Scale/normalize the numerical features.
-�
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+
 🔎 Feature Selection
 The project uses important customer features such as:
 Age
 Annual Income
 Spending Score
 Purchase Frequency
-These features help identify similarities between customers. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+These features help identify similarities between customers. 
+
 📐 Elbow Method
 The Elbow Method is used to find a suitable number of clusters K.
 The Within-Cluster Sum of Squares (WCSS) is calculated as:
 WCSS = Σ Σ (x - μ)²
-The WCSS values are plotted against different values of K. The point where the curve bends significantly is selected as the elbow point. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+The WCSS values are plotted against different values of K. The point where the curve bends significantly is selected as the elbow point. 
+
 🤖 K-Means Clustering
 The K-Means algorithm works through these steps:
 Select the number of clusters K.
 Initialize cluster centroids.
 Assign data points to the nearest centroid.
 Update the centroids.
-Repeat until the clusters converge. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+Repeat until the clusters converge. 
 📈 Visualization
 The customer clusters can be visualized using graphs such as:
 Annual Income vs Spending Score
-Different clusters are represented separately to make customer groups easier to understand. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+Different clusters are represented separately to make customer groups easier to understand. 
 👥 Customer Segments
 Example segments include:
 High-income, high-spending customers
@@ -106,14 +101,12 @@ Low-income, low-spending customers
 Moderate customers
 Budget customers
 Premium customers
-The exact characteristics of each cluster depend on the dataset and the resulting K-Means clusters. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+The exact characteristics of each cluster depend on the dataset and the resulting K-Means clusters. 
 📊 Expected Output
 The system produces:
 Customer groups/clusters.
 Graphical visualization of customer segments.
-Business insights for each group. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+Business insights for each group. 
 📁 Repository Structure
 Customer-Segmentation-KMeans/
 │
@@ -135,25 +128,23 @@ Download the segmented dataset.
 Better understanding of customers.
 Helps create targeted marketing strategies.
 Can improve efficiency and profitability.
-Supports personalized services. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+Supports personalized services. 
 ⚠️ Limitations
 Choosing the correct value of K can be difficult.
 K-Means is sensitive to outliers.
-Results depend on the quality of the dataset. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+Results depend on the quality of the dataset. 
 🚀 Future Enhancements
 Use DBSCAN clustering.
 Use Hierarchical Clustering.
 Implement real-time customer segmentation.
 Integrate with CRM systems.
-Develop AI-based recommendation systems. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
+Develop AI-based recommendation systems. 
 🎓 Project Type
 Machine Learning – Unsupervised Learning
 Algorithm: K-Means Clustering
 Application: Customer Segmentation
+
+
 📌 Conclusion
-Customer segmentation helps businesses identify valuable customer groups, improve marketing strategies, and make data-driven decisions. K-Means provides an efficient approach for grouping customers based on their characteristics and purchasing behavior. �
-13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
-Made for academic/educational purposes.
+Customer segmentation helps businesses identify valuable customer groups, improve marketing strategies, and make data-driven decisions. K-Means provides an efficient approach for grouping customers based on their characteristics and purchasing behavior. 
+
