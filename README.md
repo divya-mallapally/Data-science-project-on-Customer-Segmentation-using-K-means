@@ -65,7 +65,7 @@ The project architecture follows data collection, preprocessing, feature selecti
 13006743-BE-_Project_Synopsis-_IN_DETAIL_(3).pdf
 🧹 Data Preprocessing
 The following steps are performed:
-Load the customer CSV dataset.
+Load the customer CSV dataset
 Check missing values.
 Remove duplicate records.
 Encode categorical data when required.
